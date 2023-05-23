@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+/*Cuerpo completo*/
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/coding.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 30rem;
+    height: 35rem;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #455;
+    box-shadow: 10px 10px 10px #111;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img{
+    width: 10rem;
+    height: auto;
+}
+
+.logo-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.logo-text h2{
+    font-weight: 700;
+}
+
+.logo-text h3{
+    color: #35b9b9;
+    font-weight: 800;
+}
+
+.box hr{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.skills{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.skills span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.socials{
+    padding-right: 20px;
+    margin-top: 2rem;
+}
+
+.socials a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 1rem;
+    padding: 10px;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.link:hover{
+    background-color: #35b9b9;
+    color: #455;
+    transition: .3s ease-in-out;
+}
+
+.box p{
+    margin-top: 3rem;
+    font-weight: 400;
+}
+
+.website{
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.website button{
+    width: 120px;
+    height: 2.5rem;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #455;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px #111;
+}
+
+.website button:hover{
+    transition: .3s ease-in-out;
+    color: #bbb;
+    background-color: #444;
+}
+
+.website button img{
+    width: 1.5rem;
+}
